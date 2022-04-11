@@ -26,9 +26,6 @@ We had made a secure environment for all the coders group to share their code in
 
 Dillinger uses a number of open source projects to work properly:
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
 - [ Bootstrap ] - great UI boilerplate for modern web apps
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
@@ -73,12 +70,12 @@ Verify the deployment by navigating to your server address in
 your preferred browser.
 
 ```sh
-127.0.0.1:8000
+127.0.0.1:5000
 ```
 
 ## License
 
 Mr_optimizer
 
-**Free Software, Hell Yeah!**
+**Free Software, go for it!**
 
