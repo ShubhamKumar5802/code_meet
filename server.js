@@ -35,6 +35,7 @@ io.on("connection", (socket) => {
     });
     socket.emit("inform_me_about_other_user", other_users);
   });
+  // Sockets Direct Protocol
   socket.on("SDPProcess", (data) => {
     socket.to(data.to_connid).emit("SDPProcess", {
       message: data.message,
@@ -95,6 +96,7 @@ io.on("connection", (socket) => {
 });
 
 app.use(fileUpload());
+
 app.post("/attachimg", function (req, res) {
   var data = req.body;
   var imageFile = req.files.zipfile;
